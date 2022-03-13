@@ -31,7 +31,7 @@ namespace CMSWinFormsApp
 
         private void jobDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            JobDetailsForm jobForm = new JobDetailsForm();
+            JobDetailsForm2 jobForm = new JobDetailsForm2();
             jobForm.ShowDialog();
         }
 
