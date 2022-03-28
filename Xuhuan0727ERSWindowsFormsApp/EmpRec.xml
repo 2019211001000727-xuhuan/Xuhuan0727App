@@ -3,7 +3,7 @@
 	<Ecode Id="E001" EmployeeName="Michael Preey">
 		<EmpDetails DateofJoin="02-02-1999" Gread="A" Salary="1750"/>
 	</Ecode>
-	<Ecode Id="E002" EmployoeeName="Jenifer Carell">
+	<Ecode Id="E002" EmployeeName="Jenifer Carell">
 		<EmpDetails DateofJoin="03-02-1999" Gread="A" Salary="2500"/>
 	</Ecode>
 	<Ecode Id="E003" EmployeeName="George Rice">

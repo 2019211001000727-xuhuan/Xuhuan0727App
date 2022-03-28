@@ -72,7 +72,7 @@ namespace Xuhuan0727ERSWindowsFormsApp
         {
             listView1.Clear();
             listView1.Columns.Add("Employee Name", 255,HorizontalAlignment.Left);
-            listView1.Columns.Add("Date of Join", 70, HorizontalAlignment.Right);
+            listView1.Columns.Add("Date of Join", 70, HorizontalAlignment.Left);
             listView1.Columns.Add("Gread", 105, HorizontalAlignment.Left);
             listView1.Columns.Add("Salary", 105, HorizontalAlignment.Left);
         }
@@ -89,11 +89,11 @@ namespace Xuhuan0727ERSWindowsFormsApp
                 String gread;
                 String doj;
                 String sal;
-                String[] strItemArr = new String[4];
+                String[] strItemsArr = new String[4];
                 listRead.MoveToFirstAttribute();//Id="E001"
                 strNodeName = listRead.Value;
                 strNodePath = crrNode.FullPath.Remove(0,17);
-                if(strNodePath == strNodeName)
+                if(strNodeName == strNodePath)
                 {
                     ListViewItem lvi;
                     listRead.MoveToNextAttribute();
